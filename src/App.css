@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.imcContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  background-color: rgb(66, 66, 66);
+  width: 400px;
+  height: 350px;
+  border-radius: 12px;
+  gap: 5px;
+}
+
+.imcContainer label{
+  font-size: 2rem;
+}
+
+.imcContainer input{
+  width: 50%;
+  height: 25px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  padding: 4px;
+  text-align: end;
+}
+
+.resultadoImc{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+button{
+  background-color: rgb(54, 54, 54);
+  outline: none;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 6px;
+  transition: .2s all;
+}
+
+button:hover{
+  background-color: rgb(8, 8, 8);
+  cursor: pointer;
+}
